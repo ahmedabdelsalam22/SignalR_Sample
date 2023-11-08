@@ -24,6 +24,7 @@ function newWindowLoadedOnClient()
 function fulfilled()
 {
     console.log("connection to user hub successfull");
+    newWindowLoadedOnClient();
 }
 function rejected() { }
 
